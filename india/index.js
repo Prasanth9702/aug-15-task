@@ -1,39 +1,39 @@
 let ele=document.createElement("div")
-ele.classList.add("container")
-let count=document.getElementById("span")
-count.innerHTML=10
-document.body.append(ele)
+
+ele.innerHTML=10
+
+
 let time=10;
 setTimeout(()=>{
     time=time-1;
-    count.innerHTML=time
+    ele.innerHTML=time
     setTimeout(()=>{
-        time=time-1;
-        count.innerHTML=time
+        time=time-1; 
+        ele.innerHTML=time
         setTimeout(()=>{
             time=time-1;
-            count.innerHTML=time
+            ele.innerHTML=time
             setTimeout(()=>{
                 time=time-1;
-                count.innerHTML=time
+                ele.innerHTML=time
                 setTimeout(()=>{
                     time=time-1;
-                    count.innerHTML=time
+                    ele.innerHTML=time
                     setTimeout(()=>{
                         time=time-1;
-                        count.innerHTML=time
+                        ele.innerHTML=time
                         setTimeout(()=>{
                             time=time-1;
-                            count.innerHTML=time
+                            ele.innerHTML=time
                             setTimeout(()=>{
                                 time=time-1;
-                                count.innerHTML=time
+                                ele.innerHTML=time
                                 setTimeout(()=>{
                                     time=time-1;
-                                    count.innerHTML=time
+                                    ele.innerHTML=time
                                     setTimeout(()=>{
-                                        count.innerHTML=  `HAPPY 
-                                                INDIPENDENCE
+                                        ele.innerHTML=  `HAPPY <br>
+                                                         INDIPENDENCE<br>
                                                             DAY`
 
 
@@ -50,3 +50,5 @@ setTimeout(()=>{
     },1000)
   
 },1000)
+
+document.body.append(ele)
